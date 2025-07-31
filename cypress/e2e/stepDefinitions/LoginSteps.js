@@ -1,5 +1,5 @@
 import { Given, When, Then } from "@badeball/cypress-cucumber-preprocessor";
-import LoginPage from "../../Pages/LoginPage";
+import LoginPage from "../Pages/LoginPage";
 Given("the user is on Orange HRM page", () => {
  LoginPage.visit()
 });

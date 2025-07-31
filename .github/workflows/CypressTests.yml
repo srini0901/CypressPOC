@@ -25,7 +25,7 @@ jobs:
       run: npm install
 
     - name: Run Cypress tests
-      run: npm run cypress:run
+      run: npx cypress run
 
     - name: Generate Mochawesome report
       run: npm run posttest
